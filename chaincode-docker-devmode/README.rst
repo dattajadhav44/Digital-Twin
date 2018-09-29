@@ -3,7 +3,7 @@ Using dev mode
 
 The stpes are bit lengthy inorder to execute this exrcize. Please do carefully fallow with below steps. and then invoke the chaincode dcar.
 
-mainly we have 5 functions in our dcar chaince code. Let me brief abouth them.
+mainly we have 6 functions in our dcar chaince code. Let me brief abouth them.
 
 1.initLedger:- This function initialize the ledger and 5 car entries for us in database(ledger).
 2.createCar:- This functions create the car. basically adding new entry into ledger.
@@ -13,6 +13,8 @@ mainly we have 5 functions in our dcar chaince code. Let me brief abouth them.
 6.changeCarMilleageAndColour:- This function is to modify the milleage and colour of the car based on VIN number.
 
 The queries are given below with all the parameters. Please see the below.
+
+Have executed and  successully tested all the querries. 
 ----------------------------------------------------------------------------------------------
 
 Install Fabric Samples
