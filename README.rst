@@ -6,10 +6,15 @@ The stpes are bit lengthy inorder to execute this exrcize. Please do carefully f
 mainly we have 5 functions in our dcar chaince code. Let me brief abouth them.
 
 1.initLedger:- This function initialize the ledger and 5 car entries for us in database(ledger).
+
 2.createCar:- This functions create the car. basically adding new entry into ledger.
+
 3.changeCarOwner:- This function changes the ownership of the car based in VIN (Vehicle identification number)
+
 4.queryAllCars:- The function is fetch all the cars available in range of 0 to 10.
+
 5.queryCar:- This function is to fetch the specific based on VIN number. 
+
 6.changeCarMilleageAndColour:- This function is to modify the milleage and colour of the car based on VIN number.
 
 The queries are given below with all the parameters. Please see the below.
