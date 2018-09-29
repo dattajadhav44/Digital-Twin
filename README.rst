@@ -1,9 +1,9 @@
 Using dev mode
 ==============
 
-The stpes are bit lengthy inorder to execute this exrcize. Please do carefully fallow with below steps. and then invoke the chaincode dcar.
+The stpes are bit lengthy inorder to execute this exrcize. Please do fallow carefully with below steps. and then invoke the chaincode dcar.
 
-mainly we have 5 functions in our dcar chaince code. Let me brief abouth them.
+mainly we have 6 functions in our dcar chaince code. Let me brief abouth them.
 
 1.initLedger:- This function initialize the ledger and 5 car entries for us in database(ledger).
 
