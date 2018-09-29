@@ -122,10 +122,14 @@ instantiate the chaincode here
   peer chaincode instantiate -n mycc -v 0 -c '{"Args":["init"," "]}' -C myc
   
   peer chaincode invoke -n mycc -c '{"Args":["initLedger", " "]}' -C myc   - This will create 5 bran new entries for us. file records
-  peer chaincode invoke -n mycc -c '{"Args":["queryAllCars", " "]}' -C myc
-  peer chaincode invoke -n mycc -c '{"Args":["changeCarOwner", "3VW5DAAT6JM516495, Stephen"]}' -C myc
-  peer chaincode invoke -n mycc -c '{"Args":["changeCarMilleageAndColour", "WBS8M9C51J5K98915","green","30]}' -C myc
-  peer chaincode invoke -n mycc -c '{"Args":["createCar", "WDAPF4CC2JP603170", "Mathew", "grey", "Sprinter", "Mercedes-Benz", "25"]}' -C myc
+ 
+ peer chaincode invoke -n mycc -c '{"Args":["queryAllCars", " "]}' -C myc
+ 
+ peer chaincode invoke -n mycc -c '{"Args":["changeCarOwner", "3VW5DAAT6JM516495, Stephen"]}' -C myc
+ 
+ peer chaincode invoke -n mycc -c '{"Args":["changeCarMilleageAndColour", "WBS8M9C51J5K98915","green","30]}' -C myc
+ 
+ peer chaincode invoke -n mycc -c '{"Args":["createCar", "WDAPF4CC2JP603170", "Mathew", "grey", "Sprinter", "Mercedes-Benz", "25"]}' -C myc
 
 
 .. code:: bash
